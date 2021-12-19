@@ -19,14 +19,14 @@
     border-radius: 30px;
     background-color: #ecf0f3;
     display: grid;
-    grid-template-columns: repeat(4, 68px);
+    grid-template-columns: repeat(5, 80px);
     box-shadow: inset 5px 5px 12px  #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
 }
 
 input{
     height: 70px;
-    width: 270px;
-    grid-column: span 4;
+    width: 400px;
+    grid-column: span 6;
     background-color: #ecf0f3 ;
     box-shadow: inset 5px 5px 12px #fff, -5px -5px rgba(0, 0, 0, 0.16);
     border: none;
@@ -43,7 +43,7 @@ input{
 button{
     background-color: #ecf0f3;
     height: 50px;
-    width: 50px;
+    width: 80px;
     border: none;
     border-radius: 50%;
     box-shadow: -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
@@ -58,9 +58,9 @@ button:hover{
     color: white;
 }
 
-hasil{
-    width: 115px;
+.hasil{
+    width: 80px;
     border-radius: 45px;
     box-shadow: inset -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
-    background-color: #ecf0f3;
+    background-color: green;
 }
