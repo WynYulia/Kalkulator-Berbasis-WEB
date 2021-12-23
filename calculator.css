@@ -1,12 +1,10 @@
-* {
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    outline: none;
-    padding: 0px;
-    background-color: #ecf0f3;
+*{
+    background-color: #2F495A;
 }
 
+h1{
+    text-align: center;
+}
 .container{
     display: flex;
     height: 100vh;
@@ -17,21 +15,21 @@
 .calculator{
     padding: 16px;
     border-radius: 30px;
-    background-color: #ecf0f3;
+    background-color: #7c7f81;
     display: grid;
     grid-template-columns: repeat(5, 80px);
-    box-shadow: inset 5px 5px 12px  #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    box-shadow: inset 5px 5px 12px #2F495A , 5px 5px 12px rgba(255, 254, 254, 0.753);
 }
 
 input{
     height: 70px;
     width: 400px;
     grid-column: span 6;
-    background-color: #ecf0f3 ;
-    box-shadow: inset 5px 5px 12px #fff, -5px -5px rgba(0, 0, 0, 0.16);
+    background-color:  #2F495A ;
+    box-shadow: inset 5px 5px 12px #2F495A, -5px -5px rgba(255, 254, 254, 0.753);
     border: none;
     border-radius: 30px;
-    color: rgb(70, 70, 70);
+    color: rgb(255, 254, 254, 0.753);
     font-size: 50px;
     text-align: end;
     margin: auto;
@@ -41,12 +39,12 @@ input{
 }
 
 button{
-    background-color: #ecf0f3;
+    background-color: #2F495A;
     height: 50px;
     width: 80px;
     border: none;
     border-radius: 50%;
-    box-shadow: -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    box-shadow: -5px -5px 12px #1d1c1c, 5px 5px 12px rgba(255, 254, 254, 0.753);
     margin: 10px;
     font-size: 16px;
     font-weight: bold;
@@ -55,12 +53,12 @@ button{
 
 button:hover{
     background-color: red;
-    color: white;
+    color: gray;
 }
 
 .hasil{
     width: 80px;
     border-radius: 45px;
-    box-shadow: inset -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    box-shadow: inset -5px -5px 12px #1d1c1c, 5px 5px 12px rgba(255, 255, 255, 0.685);
     background-color: green;
 }
